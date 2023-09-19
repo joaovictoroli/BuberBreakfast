@@ -29,7 +29,7 @@ public class BreakfastService : IBreakfastSerivice
         }
         else
         {
-            return Errors.NotFound;
+            return Errors.Breakfast.NotFound;
         }
     }
 
